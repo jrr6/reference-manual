@@ -10,7 +10,7 @@ open Lake DSL
 open System (FilePath)
 
 require MD4Lean from git "https://github.com/acmepjz/md4lean"@"main"
-require verso from git "https://github.com/jrr6/verso.git"@"main"
+require verso from git "https://github.com/jrr6/verso.git"@"explanation-testing"
 
 package "verso-manual" where
   -- building the C code cost much more than the optimizations save
@@ -201,5 +201,5 @@ target preprocess_explanations : Unit := do
 
 @[default_target]
 lean_exe "generate-manual" where
-  needs := #[`@/extract_explanation_example, `@/figures, `@/subversoExtractMod]
+  needs := #[`@/extract_explanation_example, `@/subversoExtractMod]
   root := `Main

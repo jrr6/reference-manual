@@ -174,8 +174,6 @@ Typically, bitwise operations on {name}`Fin` should be accessed using Lean's ove
 
 {docstring Fin.toNat}
 
-{docstring Fin.ofNat}
-
 {docstring Fin.cast}
 
 {docstring Fin.castLT}
