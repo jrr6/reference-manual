@@ -14,7 +14,7 @@ import VersoManual
 -- import Manual.Classes
 -- import Manual.Axioms
 -- import Manual.Terms
-import Manual.DiagnosticExplanations
+import Manual.ErrorExplanations
 -- import Manual.Tactics
 -- import Manual.Simp
 import Manual.BasicTypes
@@ -62,4 +62,4 @@ Thus, this reference manual does not draw a barrier between the two aspects, but
 
 {include 0 Manual.BasicTypes}
 
-{include 0 Manual.DiagnosticExplanations}
+{include 0 Manual.ErrorExplanations}
