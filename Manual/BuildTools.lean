@@ -10,7 +10,7 @@ import Lean.Parser.Command
 
 import Manual.Meta
 import Manual.BuildTools.Lake
-import Manual.BuildTools.Elan
+-- import Manual.BuildTools.Elan
 
 open Manual
 open Verso.Genre
@@ -59,8 +59,6 @@ They also include external proof automation tools that are used by tactics inclu
 
 
 {include 0 Manual.BuildTools.Lake}
-
-{include 0 Manual.BuildTools.Elan}
 
 # Reservoir
 %%%
