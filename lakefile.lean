@@ -88,7 +88,7 @@ target figures : Array FilePath := do
 section ExplanationPreprocessing
 open Lean Meta
 
-/- This must agree with `DiagnosticExplanation.mkExampleName`. -/
+/- This must agree with `mkExampleName` in `Manual.ErrorExplanation`. -/
 private def mkExampleName (errorName : Name) (idx : Nat) : Name :=
   errorName ++ s!"block{idx}".toName
 
